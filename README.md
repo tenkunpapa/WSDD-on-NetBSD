@@ -1,4 +1,4 @@
-# WSDD-on-NetBSD
+# WSDD-for-NetBSD
 Please modify wsdd.conf to your environment, and
 <ul>
 <li>cp wsdd.conf /usr/local/etc/wsdd.conf</li>
