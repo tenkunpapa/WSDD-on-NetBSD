@@ -7,14 +7,14 @@
 # REQUIRE: DAEMON LOGIN mountall
 # KEYWORD: shutdown
 
-# Note: this needs NetBSD 1.6 + Python 3.1  or newer
+# Note: this needs NetBSD 9.4 amd64 + Python 3.13  or newer
 #
 
 . /etc/rc.subr
 
 name="wsdd"
 rcvar=${name}
-command="/usr/local/bin/python3.1"
+command="/usr/local/bin/python3"
 procname="/usr/local/libexec/${name}"
 required_files="/usr/local/etc/${name}.conf"
 start_cmd=wsdd_start
