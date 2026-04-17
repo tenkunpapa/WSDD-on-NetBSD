@@ -14,7 +14,7 @@
 
 name="wsdd"
 rcvar=${name}
-command="/usr/local/bin/python"
+command="/usr/local/bin/python3"
 procname="/usr/local/libexec/${name}"
 required_files="/usr/local/etc/${name}.conf"
 start_cmd=wsdd_start
